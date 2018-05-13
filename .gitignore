@@ -1,5 +1,6 @@
 *sh
 *pyc
+/venv
 /data
 !/data/.gitkeep
 /results

@@ -1,6 +1,6 @@
+from model.config import Config
 from model.data_utils import CoNLLDataset
 from model.ner_model import NERModel
-from model.config import Config
 
 
 def align_data(data):
@@ -14,7 +14,7 @@ def align_data(data):
 
     Returns:
         data_aligned: (dict) data_align["x"] = "I love you"
-                           data_align["y"] = "O O    O  "
+                           data_align["y"] = "O O O "
 
     """
     spacings = [max([len(seq[i]) for seq in data.values()])
@@ -32,7 +32,6 @@ def align_data(data):
     return data_aligned
 
 
-
 def interactive_shell(model):
     """Creates interactive shell to play with model
 
@@ -40,19 +39,12 @@ def interactive_shell(model):
         model: instance of NERModel
 
     """
-    model.logger.info("""
-This is an interactive mode.
-To exit, enter 'exit'.
-You can enter a sentence like
-input> I love Paris""")
+    model.logger.info("""This is an interactive mode.
+    To exit, enter 'exit'.You can enter a sentence like
+    input> I love Paris""")
 
     while True:
-        try:
-            # for python 2
-            sentence = raw_input("input> ")
-        except NameError:
-            # for python 3
-            sentence = input("input> ")
+        sentence = input("input> ")
 
         words_raw = sentence.strip().split(" ")
 
@@ -76,8 +68,8 @@ def main():
     model.restore_session(config.dir_model)
 
     # create dataset
-    test  = CoNLLDataset(config.filename_test, config.processing_word,
-                         config.processing_tag, config.max_iter)
+    test = CoNLLDataset(config.filename_test, config.processing_word,
+                        config.processing_tag, config.max_iter)
 
     # evaluate and interact
     model.evaluate(test)
