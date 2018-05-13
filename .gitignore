@@ -1,5 +1,6 @@
 *sh
 *pyc
+.idea
 /venv
 /data
 !/data/.gitkeep

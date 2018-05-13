@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="428a7a61-bafc-4ec5-90ea-e5b7c56866ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/base_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/data_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/general_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/general_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ner_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ner_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,16 +79,6 @@
             <path>
               <item name="sequence_tagging" type="b2602c69:ProjectViewProjectNode" />
               <item name="sequence_tagging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sequence_tagging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sequence_tagging" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sequence_tagging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sequence_tagging" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
