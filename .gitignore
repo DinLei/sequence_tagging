@@ -2,7 +2,8 @@
 *pyc
 .idea
 /venv
-/data
-!/data/.gitkeep
+glove.6B
 /results
 *.DS_Store
+*.txt
+*.csv
