@@ -7,3 +7,5 @@ glove.6B
 *.DS_Store
 *.txt
 *.csv
+*.xml
+*.iml
