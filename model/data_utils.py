@@ -1,10 +1,13 @@
 import re
+import os
 import numpy as np
+import pandas as pd
 
 # shared global variables to be imported from model also
 UNK = "#UNK#"
 NUM = "#NUM#"
 NONE = "O"
+tag_r = re.compile("\[(?:@|\$)(.*)#(.*)\*")
 
 
 # special error message
@@ -417,3 +420,92 @@ def get_chunks(seq, tags):
         chunks.append(chunk)
 
     return chunks
+
+
+def reform_training_data(path, suffix, save_name,
+                         h_label="c", m_label="m", sep=" "):
+    result = []
+    for file in os.listdir(path):
+        file_path = os.path.join(path, file)
+        if os.path.splitext(file_path)[-1] == suffix:
+            records = []
+            with open(file_path, "r") as fin:
+                for row in fin:
+                    records = []
+                    tokens = _segment(row)
+                    for ti in tokens:
+                        matcher = tag_r.search(ti)
+                        if matcher:
+                            ti = matcher.group(1).strip()
+                            label = h_label
+                        else:
+                            label = m_label
+                        for tii in ti.split(" "):
+                            records.append((tii, label))
+                    result.append(records)
+            if records:
+                result.append(records)
+    with open(save_name, "w", encoding="utf-8") as fout:
+        for records1 in result:
+            for row in records1:
+                fout.write(sep.join(row))
+                fout.write("\n")
+            fout.write("\n")
+
+
+def _segment(string):
+    tokens = []
+    string = re.sub("]\[", "] \[", string)
+    string = re.sub("\s+", " ", string).strip()
+    chars = list(string)
+    tmp_chars = []
+    left_b = False
+    for ci in chars:
+        if ci == "[":
+            left_b = True
+        if ci == "]":
+            left_b = False
+        if ci == " " and not left_b:
+            tokens.append("".join(tmp_chars).strip())
+            tmp_chars.clear()
+        else:
+            tmp_chars.append(ci)
+    if tmp_chars:
+        tokens.append("".join(tmp_chars))
+    return tokens
+
+
+def test_outcome(out_file="data/out.txt",
+                 save_file="data/test_out.csv",
+                 h_label="c"):
+    records = []
+    count = 0
+    with open(out_file, "r", encoding="utf8") as fin:
+        tmp = ""
+        true_head = ""
+        predict_head = ""
+        for row in fin:
+            if row == "\n":
+                if true_head == predict_head:
+                    flag = 1
+                    count += 1
+                else:
+                    flag = 0
+                records.append((tmp.strip(), true_head.strip(), predict_head, flag))
+                tmp = ""
+                true_head = ""
+                predict_head = ""
+            else:
+                line = str(row).strip().split()
+                word = line[0]
+                true_label = line[-2]
+                predict_label = line[-1]
+                tmp += " " + word
+                if true_label == h_label:
+                    true_head += " " + word
+                if predict_label == h_label:
+                    predict_head += " " + word
+    print("准确率: {}".format(count/len(records)))
+    df = pd.DataFrame(records)
+    df.columns = ["query", "true_head", "predict_head", "if_true"]
+    df.to_csv(save_file)

@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="428a7a61-bafc-4ec5-90ea-e5b7c56866ad" name="Default" comment="">
+    <list default="true" id="428a7a61-bafc-4ec5-90ea-e5b7c56866ad" name="Default" comment="增加数据">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/crf_learn.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/crf_test.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/JapaneseNE/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/JapaneseNE/train.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/libcrfpp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/JapaneseNE/template2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/basenp/template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/basenp/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/basenp/train.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/chunking/template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/chunking/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/chunking/train.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/seg/template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/seg/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRF++/example/seg/train.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test_data/part11.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test_data/part13.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part0.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part1.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part10.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part12.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part14.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part16.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part2.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part3.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part4.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part5.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part6.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part7.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part8.txt.ann" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/training_data/part9.txt.ann" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part0.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part1.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part10.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part11.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part12.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part13.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part14.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part16.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part2.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part3.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part4.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part5.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part6.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part7.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part8.txt.ann" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/bg_kw_anno/part9.txt.ann" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/data_utils.py" afterPath="$PROJECT_DIR$/model/data_utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +68,38 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/data_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1206">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#258#612#0" expanded="false" />
+                <element signature="e#647#2749#0" expanded="false" />
+                <element signature="e#2782#3270#0" expanded="false" />
+                <element signature="e#3306#3651#0" expanded="false" />
+                <element signature="e#3689#4064#0" expanded="false" />
+                <element signature="e#4105#4603#0" expanded="false" />
+                <element signature="e#4636#5041#0" expanded="false" />
+                <element signature="e#5137#5901#0" expanded="false" />
+                <element signature="e#5949#6206#0" expanded="false" />
+                <element signature="e#6344#7630#0" expanded="false" />
+                <element signature="e#7689#8181#0" expanded="false" />
+                <element signature="e#8238#9529#0" expanded="false" />
+                <element signature="e#9575#10051#0" expanded="false" />
+                <element signature="e#10095#10377#0" expanded="false" />
+                <element signature="e#10411#11833#0" expanded="false" />
+                <element signature="e#11951#13014#0" expanded="false" />
+                <element signature="e#13043#13572#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,6 +112,7 @@
       <find>$</find>
       <find>n.</find>
       <find>run_epoch</find>
+      <find>led</find>
     </findStrings>
     <replaceStrings>
       <replace>n_iter</replace>
@@ -50,9 +130,11 @@
         <option value="$PROJECT_DIR$/data/test.txt" />
         <option value="$PROJECT_DIR$/build_data.py" />
         <option value="$PROJECT_DIR$/model/config.py" />
-        <option value="$PROJECT_DIR$/model/data_utils.py" />
         <option value="$PROJECT_DIR$/model/base_model.py" />
         <option value="$PROJECT_DIR$/model/ner_model.py" />
+        <option value="$PROJECT_DIR$/data/test.data" />
+        <option value="$PROJECT_DIR$/data/train.data" />
+        <option value="$PROJECT_DIR$/model/data_utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -67,8 +149,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
-    <option name="width" value="1186" />
+    <option name="x" value="798" />
+    <option name="width" value="1121" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
@@ -97,6 +179,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRF++" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRF++" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_tagging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRF++" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basenp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,19 +524,26 @@
       <option name="presentableId" value="Default" />
       <updated>1526135268560</updated>
     </task>
+    <task id="LOCAL-00001" summary="增加数据">
+      <created>1526864619137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526864619137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="0" width="1186" height="1080" extended-state="1" />
-    <editor active="true" />
+    <frame x="798" y="0" width="1121" height="1080" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25133216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29698858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347413" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22337417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -409,6 +566,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
@@ -428,6 +589,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+            <element signature="e#176#346#1" expanded="false" />
+            <element signature="e#782#1121#1" expanded="false" />
+            <element signature="e#2388#2517#1" expanded="false" />
+            <element signature="e#2984#3111#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -470,6 +638,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#90#636#0" expanded="false" />
+            <element signature="e#90#255#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,6 +650,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="267" column="17" lean-forward="false" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#291#440#0" expanded="false" />
+            <element signature="e#482#1741#0" expanded="false" />
+            <element signature="e#1823#2196#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,13 +663,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/data_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6255">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+            <element signature="e#176#346#1" expanded="false" />
+            <element signature="e#782#1121#1" expanded="false" />
+            <element signature="e#2388#2517#1" expanded="false" />
+            <element signature="e#2984#3111#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -519,10 +691,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/bg_kw_anno/part0.txt.ann">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/training_data/part9.txt.ann">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="187" column="27" lean-forward="true" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_data/part11.txt.ann">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="7377" column="6" lean-forward="false" selection-start-line="7377" selection-start-column="6" selection-end-line="7377" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1206">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#258#612#0" expanded="false" />
+            <element signature="e#647#2749#0" expanded="false" />
+            <element signature="e#2782#3270#0" expanded="false" />
+            <element signature="e#3306#3651#0" expanded="false" />
+            <element signature="e#3689#4064#0" expanded="false" />
+            <element signature="e#4105#4603#0" expanded="false" />
+            <element signature="e#4636#5041#0" expanded="false" />
+            <element signature="e#5137#5901#0" expanded="false" />
+            <element signature="e#5949#6206#0" expanded="false" />
+            <element signature="e#6344#7630#0" expanded="false" />
+            <element signature="e#7689#8181#0" expanded="false" />
+            <element signature="e#8238#9529#0" expanded="false" />
+            <element signature="e#9575#10051#0" expanded="false" />
+            <element signature="e#10095#10377#0" expanded="false" />
+            <element signature="e#10411#11833#0" expanded="false" />
+            <element signature="e#11951#13014#0" expanded="false" />
+            <element signature="e#13043#13572#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
